@@ -1,6 +1,6 @@
 {
-  "name": "cluster-lite",
-  "version": "1.0.0",
+  "name": "cluster-l",
+  "version": "1.0.1",
   "description": "lite cluster configurator",
   "main": "index.js",
   "scripts": {
