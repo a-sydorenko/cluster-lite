@@ -29,6 +29,15 @@ const options = {
       message: { filename: 'app1.js' }
     }
   ],
+  // now you can define behavior of fallen worker 
+  // through Map object with params for each exitCode
+  
+  instructions: new Map([
+    [1, {
+      type: '_timeout', args: [3000]
+    }],
+    [2, { type: '_exit' }]
+  ]),
   timeoutOffset: 300
 }
 
